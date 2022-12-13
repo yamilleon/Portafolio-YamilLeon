@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Plantilla Personalizable</title>
+</head>
+<body>
+    <div class="contenedor">
+                <nav class="navbar">
+                    <div class="brand">
+                        <H2><span class="emojis">YM</span></H2><!--Puedes poner tu logo o personalizar con tus iniciales-->
+                    </div>
+                    <ul id="menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#portfolio">Portafolio</a></li>
+                        <li><a href="#contact">Contácteme</a></li>
+                    </ul>
+                    <span id="btn_menu" class="fa fa-bars"></span>
+                </nav>
+
+
+            <main class="main">
+                <div class="info-content">
+                    <h1>¡Hola! soy "<span>Yamil</span> Leon"</h1>
+                    <p>Para empezar un ¡Poco de mi!</p>
+                    <p>Hoy vengo a mostrarte un poco de mí y de lo que puedo ser capaz de hacer tanto en el código como en el área de trabajo. Dispongo de competencias blandas amplias también de conocimientos tanto en Front  End  como en BackEnd . Mi objetivo es crecer laboralmente en este ámbito que tanto me apasiona.</p>
+                    <a download href="img/YamilLeonCv.pdf"> <!--Aquí puedes poner la ruta a tu cv-->
+                        <button class="buttons">Descarga aquí mi CV</button>
+                    </a>
+                </div>
+                <img src="img/leon.jpg" alt="Tu foto">
+            </main>
+
+        <section class="portfolio" id="portfolio">
+            <div class="portfolio-headings">
+                <h2>Mi Portafolio</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="container">
+                <div class="cards">
+                    <div class="card">
+                        <div loading="lazy" decoding="async" class="card-img"></div>
+                        <div class="card-title">
+                           
+                            <h2>Ecommerce Blessed</h2>
+                            <p>Un ecommerce con la finalidad de hacer de maquerta estatica del ya nombrado a un proyecto completo con todas las tecnologias vistas en la cursada.</p>
+                        </div>
+                        <div class="card-projects-link">
+                            <a class="fab fa-github" href="https://yamilleon.github.io/Blessed-2.0/index.html" target="_blank"></a>
+                            <a class="fas fa-globe-americas" href="https://blessbuy.netlify.app/"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div loading="lazy" decoding="async" class="card-img"></div>
+                        <div class="card-title">
+                            <img/>
+                            <h2>Ecommerce Blessed v2</h2>
+                            <p>Se le agrega dinamismo y interactividad ademas de las funciones de un ecommerce tambien utilizando la misma estetica anterior.</p>
+                        </div>
+                        <div class="card-projects-link">
+                            <a class="fab fa-github" href="https://yamilleon.github.io/ProyectoFinal-Javascript-YamilLeon/" target="_blank"></a>
+                            <a class="fas fa-globe-americas" href=""></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div loading="lazy" decoding="async" class="card-img"></div>
+                        <div class="card-title">
+                            <h2>Blessed v3</h2>
+                            <p>Se utiliza el framework de React para la construccion de todos los componenetes desde cero basandose en las anteriores versiones y ademas dandole muchas mas funcionalidades.</p>
+                        </div>
+                        <div class="card-projects-link">
+                            <a class="fab fa-github" href="https://www.loom.com/share/4a2bdb394af54def9c55aa0c60eca708" target="_blank"></a>
+                            <a class="fas fa-globe-americas" href="https://www.loom.com/share/4a2bdb394af54def9c55aa0c60eca708"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <h2>Charlemos</h2>
+            <div class="container-contact">
+                <form class="form" id="formulario" method="POST" action="https://formsubmit.co/yamilleonet5@gmail.com"> <!--Aquí puedes poner tu correo, después de la barra. Al enviar un mensaje te llegará un correo para confirmar.-->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://github.com/yamilleon/Portafolio-YamilLeon.git"> <!--Aquí puedes poner tu página web-->
+                    <input type="hidden" name="_subject" value="¡Nuevo mensaje!">
+                    <input type="text" name="Nombre" placeholder="Nombre" id="nombre" required>
+                    <input type="email" name="Correo" placeholder="Correo" id="correo" required>
+                    <textarea type="text" name="Mensaje" placeholder="Escríbe tu mensaje aquí..." id="mensaje"></textarea>
+                    <button class="btn-submit" type="submit" id="thanks">Envíar</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                
+                <div class="social-networks" style="float:right;">
+                    <a href="https://github.com/yamilleon" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yamil-alejandro-leon-peralta-2326101ba" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <h5 style="float:left">YM</h5>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/9104043266.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
